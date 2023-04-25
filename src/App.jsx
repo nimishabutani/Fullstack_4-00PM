@@ -4,6 +4,8 @@ import { useState } from 'react'
 import Navbar from './Component/Navbar'
 import Card from './Component/Card'
 import Regiters from './Component/Form/Regiters'
+import Login from './Component/Form/login'
+
 
 function App() {
 
@@ -20,6 +22,7 @@ function App() {
       {/* <Navbar></Navbar> */}
       {/* <Card></Card> */}
       <Regiters></Regiters>
+      <Login></Login>
     </div>
   )
 }
