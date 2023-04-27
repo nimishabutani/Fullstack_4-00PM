@@ -5,6 +5,7 @@ import Navbar from './Component/Navbar'
 import Card from './Component/Card'
 import Regiters from './Component/Form/Regiters'
 import Login from './Component/Form/login'
+import Duplicate_card from './Component/Duplicate_card'
 
 
 function App() {
@@ -21,8 +22,9 @@ function App() {
       </form> */}
       {/* <Navbar></Navbar> */}
       {/* <Card></Card> */}
-      <Regiters></Regiters>
-      <Login></Login>
+      {/* <Regiters></Regiters>
+      <Login></Login> */}
+      <Duplicate_card></Duplicate_card>
     </div>
   )
 }
